@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (5.5.0)
+  - IQDropDownTextField (3.0.0)
+  - IQKeyboardManagerSwift (6.5.9)
+  - lottie-ios (3.3.0)
+  - ReachabilitySwift (5.0.0)
+  - SDWebImage (5.12.5):
+    - SDWebImage/Core (= 5.12.5)
+  - SDWebImage/Core (5.12.5)
+  - SnapKit (5.6.0)
+  - SwiftMessages (9.0.6):
+    - SwiftMessages/App (= 9.0.6)
+  - SwiftMessages/App (9.0.6)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - IQDropDownTextField
+  - IQKeyboardManagerSwift
+  - lottie-ios
+  - ReachabilitySwift
+  - SDWebImage
+  - SnapKit
+  - SwiftMessages
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IQDropDownTextField
+    - IQKeyboardManagerSwift
+    - lottie-ios
+    - ReachabilitySwift
+    - SDWebImage
+    - SnapKit
+    - SwiftMessages
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  IQDropDownTextField: 77916c18f518ee9f3c62735775f1ba061d92fc58
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: d6732ce6c855291c6c5aab3d450a4194402012a0
+
+COCOAPODS: 1.11.2
