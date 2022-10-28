@@ -6,6 +6,9 @@
 //
 
 import UIKit
+protocol delegateSeletionDone {
+    func didFinishSelectionDone()
+}
 class cellTopSelectionTeam:UITableViewCell {
     //MARK: - IBOutlets
     @IBOutlet weak var lblTeamName: UILabel!
@@ -39,6 +42,7 @@ class MyTopSelectionVC: UIViewController {
     var isFromMyTeamSelction = false
     var selectedPlayersIds = [NSNumber]()
     var selectedTeamsIds = [NSNumber]()
+    var delegate:delegateSeletionDone?
 
     //MARK: - View Life Cycle
     override func viewDidLoad() {
@@ -60,6 +64,7 @@ class MyTopSelectionVC: UIViewController {
         APP_DELEGATE.appNavigation?.dismiss(animated: true, completion: nil)
         APP_DELEGATE.selectedTeamsIds = self.selectedTeamsIds
         APP_DELEGATE.selectedPlayersIds = self.selectedPlayersIds
+        self.delegate?.didFinishSelectionDone()
     }
 }
 

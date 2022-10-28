@@ -162,7 +162,7 @@ extension TopTeamsPlayersVC: UITableViewDataSource,UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         return 25
     }
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+  /*  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vc = loadVC(strStoryboardId: SB_MAIN, strVCId: idMyTopSelectionVC) as! MyTopSelectionVC
         if self.topPlayerTableview.isHidden == true {
             vc.isFromMyTeamSelction = true
@@ -183,7 +183,7 @@ extension TopTeamsPlayersVC: UITableViewDataSource,UITableViewDelegate {
             }
         }
         APP_DELEGATE.appNavigation?.present(vc, animated: true, completion: nil)
-    }
+    }*/
 }
 
 //MARK: - API Calling Methods
