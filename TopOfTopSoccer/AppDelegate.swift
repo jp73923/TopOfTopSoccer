@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     //MARK: - InitialVC Method
     func initialVC() {
-        APP_DELEGATE.appNavigation = UINavigationController(rootViewController: loadVC(strStoryboardId: SB_MAIN, strVCId: idViewController))
+        APP_DELEGATE.appNavigation = UINavigationController(rootViewController: loadVC(strStoryboardId: SB_MAIN, strVCId: idTopTeamsPlayersVC))
         APP_DELEGATE.appNavigation?.isNavigationBarHidden = true
         APP_DELEGATE.window?.rootViewController = APP_DELEGATE.appNavigation
     }

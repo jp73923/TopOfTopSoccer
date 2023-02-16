@@ -73,7 +73,8 @@ class TopTeamsPlayersVC: UIViewController {
         self.vwTopPlayers.backgroundColor = UIColor.fromHex(hexString: "#DB3821")
     }
     @IBAction func btnBackSection(_ sender: UIButton) {
-        APP_DELEGATE.appNavigation?.popViewController(animated: true)
+        let vc = loadVC(strStoryboardId: SB_MAIN, strVCId: idWorldRatingsVC)
+        APP_DELEGATE.appNavigation?.pushViewController(vc, animated: true)
     }
 }
 
